@@ -3,7 +3,7 @@ require_relative 'google_connect'
 class LiveSpreadsheet
 
     def initialize(title, default_title = Time.now.year.to_s)
-        @drive = GoogleConnect.new('rocky.4q@gmail.com', 'Question00p')
+        @drive = GoogleConnect.new('rocky.4q@gmail.com', '')
         @drive.create_spreadsheet(title)
         spreadsheet = @drive.get_spreadsheet(title)
         spreadsheet.worksheets.each { |w| if w.title == default_title then @worksheet = w end }
