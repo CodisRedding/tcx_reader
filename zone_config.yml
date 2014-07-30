@@ -1,0 +1,21 @@
+---
+:z1: !ruby/range
+  begin: 0
+  end: 137
+  excl: false
+:z2: !ruby/range
+  begin: 138
+  end: 151
+  excl: false
+:z3: !ruby/range
+  begin: 152
+  end: 157
+  excl: false
+:z4: !ruby/range
+  begin: 158
+  end: 168
+  excl: false
+:z5: !ruby/range
+  begin: 169
+  end: 500
+  excl: false
