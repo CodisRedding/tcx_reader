@@ -9,13 +9,6 @@ require_relative 'live_spreadsheet'
 #    puts "No Garmin device found."
 #    exit
 #end
-
-(1..12).to_a.each do |offest|
-  
-end
-
-return
-
 # Pull directly from garmin 500 activites
 puts "Converting .fit files to .tcx..."
 #connector.convert_fit_to_tcx
